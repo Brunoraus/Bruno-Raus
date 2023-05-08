@@ -21,7 +21,7 @@ Repositório de ACs - Frameworks FullStack - Bruno Raus / Pedro Henrico / Enrico
 
 Servidor da API está em ./backend/flask_api.py
 
-
+###
 
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -42,10 +42,12 @@ def flask_api():
 if __name__ == '__main__':
     app.run(debug=True)
     
+##
     
     Flask==2.3.2
 flask-cors==3.0.10
 
+##
 
 {
   "name": "reactapp01",
@@ -87,6 +89,7 @@ flask-cors==3.0.10
   }
 }
 
+##
 
 <!DOCTYPE html>
 <html lang="en">
@@ -129,9 +132,11 @@ flask-cors==3.0.10
   </body>
 </html>
 
+##
 ![image](https://user-images.githubusercontent.com/104082146/236846187-c003b70d-3f16-4218-b90c-b7d5ab6a4a80.png)
 ![image](https://user-images.githubusercontent.com/104082146/236846256-3bbd043f-ffc0-4f48-814b-5d01ddd33c03.png)
 
+##
 
 
 {
@@ -204,6 +209,7 @@ Disallow:
   }
 }
 
+##
 
 import Sobre from './Sobre';
 import Teste from './Teste';
@@ -237,6 +243,7 @@ function App() {
 
 export default App;
 
+##
 
 import { render, screen } from '@testing-library/react';
 import App from './App';
@@ -279,6 +286,7 @@ export default function FlaskApi(){
             </div>);
 }
 
+##
 
 .Header {
     display: flex;
@@ -302,6 +310,8 @@ function Header () {
 export default Header;
 
 
+##
+
 import { Link } from "react-router-dom";
 
 export default function RotaTest(){
@@ -313,8 +323,12 @@ export default function RotaTest(){
    );
 }
 
+##
+
 import React from "react";
 import { Link, useLocation } from 'react-router-dom'
+
+##
 
 export default function Sobre (){
     const location = useLocation();
@@ -326,6 +340,7 @@ export default function Sobre (){
     );
 }
 
+##
 
 .Teste {
     display: flex;
@@ -348,8 +363,11 @@ function Teste() {
 
 }
 
+##
+
 export default Teste;
 
+##
 
 import React, { useState, useEffect } from 'react';
 
@@ -378,6 +396,7 @@ export default function Alunos(){
         </div>);
 }
 
+##
 
 body {
   margin: 0;
@@ -393,6 +412,7 @@ code {
     monospace;
 }
 
+##
 
 body {
   margin: 0;
@@ -407,11 +427,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+##
 
 
 ![image](https://user-images.githubusercontent.com/104082146/236848647-6c1b88c2-10ba-4e2e-9b87-ed87f28459ec.png)
 
-
+##
 
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
@@ -425,7 +447,11 @@ const reportWebVitals = onPerfEntry => {
   }
 };
 
+##
+
 export default reportWebVitals;
+
+##
 
 
 // jest-dom adds custom jest matchers for asserting on DOM nodes.
